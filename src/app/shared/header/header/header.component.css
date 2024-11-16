@@ -1,0 +1,25 @@
+:host {
+  display: block;
+}
+
+
+ul{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 20px;
+  font-size: 1.5rem;
+}
+
+li{
+  cursor: pointer;
+
+}
+
+
+li:hover{
+  transform: scale(1.1);
+  color: blueviolet;
+
+}
+

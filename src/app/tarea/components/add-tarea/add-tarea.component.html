@@ -1,0 +1,11 @@
+<section>
+  <form [formGroup]="formulario">
+    <label for="id">Id</label>
+    <input type="text" name="id" formControlName="id">
+
+    <label for="">Tarea</label>
+    <input type="text" name="tarea" formControlName="tarea">
+
+    <button (click)="addTarea()" >Add</button>
+  </form>
+</section>
